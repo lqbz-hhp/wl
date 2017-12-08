@@ -1,28 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" href="css/screen.css">
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/leftScreen.css">
 </head>
+
 <body>
     <div class="screen">
         <div class="screen-right">
             <div class="m-section">
-                <i class="icon icon-"></i>
-                <h2 class="section-title">运输上链数</h2>
+                <div class="section-header">
+                    <i class="icon icon-"></i>
+                    <h2 class="section-title">运输上链数</h2>
+                </div>
                 <div class="section-content">
 
                 </div>
             </div>
         </div>
+        <!-- 左边追踪 -->
         <div class="screen-left">
-
+            <div class="m-section left-genzhong">
+                <div class="section-header gengzhongHeader">
+                    <h2 class="section-title gengzhongTitle">物流状态跟踪</h2>
+                    <img class="genzongIcon" src="./img/genzongIcon.png" alt="">
+                </div>
+                <div class="section-content">
+                    <ul>
+                        <li>
+                            <p class="deliveryPoint deliveryPointTitle">发货点</p>
+                            <p class="receivingPoint receivingPointTitle">收货点</p>
+                            <p class="nowAddress nowAddressTitle">当前位置</p>
+                            <p class="client clientTitle">委托方</p>
+                        </li>
+                        <li>
+                            <p class="deliveryPoint ellips">成都</p>
+                            <p class="receivingPoint ellips">上海</p>
+                            <p class="nowAddress ellips">中转中</p>
+                            <p class="client ellips">四川成渝</p>
+                        </li>
+                        <li>
+                            <p class="deliveryPoint ellips">成都</p>
+                            <p class="receivingPoint ellips">上海</p>
+                            <p class="nowAddress ellips">中转中</p>
+                            <p class="client ellips">四川成渝</p>
+                        </li>
+                        <li>
+                            <p class="deliveryPoint ellips">成都</p>
+                            <p class="receivingPoint ellips">上海</p>
+                            <p class="nowAddress ellips">中转中</p>
+                            <p class="client ellips">四川成渝</p>
+                        </li>
+                        <li>
+                            <p class="deliveryPoint ellips">成都</p>
+                            <p class="receivingPoint ellips">上海</p>
+                            <p class="nowAddress ellips">中转中</p>
+                            <p class="client ellips">四川成渝</p>
+                        </li>
+                        <li>
+                            <p class="deliveryPoint ellips">成都</p>
+                            <p class="receivingPoint ellips">上海</p>
+                            <p class="nowAddress ellips">中转中</p>
+                            <p class="client ellips">四川成渝</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="screen-middle">
+        <!-- 左边物流数据统计 -->
+        <div class="screen-left logistics-data-statistics">
+            <div class="m-section left-logistics-data-statistics">
+                <div class="section-header logistics-data-statisticsHeader">
+                    <h2 class="section-title gengzhongTitle">物流数据统计</h2>
+                    <img class="riliIcon" src="./img/rili.png" alt="">
+                </div>
+                <div class="section-content">
+                    <!-- 当月物流量统计 -->
+                    <div class="trafficMmonth">
+                        <p>当月物流量统计</p>
+                        <div class="trafficMmonthEcharts">
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="screen-middle">
         </div>
     </div>
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="./echartsItem/trafficStatisticsMonth.js"></script>
 </body>
+
 </html>

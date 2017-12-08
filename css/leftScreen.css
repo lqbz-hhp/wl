@@ -1,0 +1,177 @@
+.ellips {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@font-face {
+    font-family: LcdD;
+    src: url(../fonts/LcdD.TTF) format('truetype');
+}
+
+@font-face {
+    font-family: SourceHanSans;
+    src: url(../fonts/SOURCEHANSANSCN-REGULAR.OTF) format('truetype');
+}
+
+
+/* 跟踪 */
+
+.gengzhongTitle {
+    position: absolute;
+}
+
+
+/* .section-content {
+    width: 100%;
+    height: 30px;
+    background-color: red;
+} */
+
+.genzongIcon {
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+.gengzhongHeader h2 {
+    margin-top: 20px;
+}
+
+.gengzhongHeader img {
+    margin-top: 10px;
+}
+
+.left-genzhong .section-content {
+    width: 411px;
+    margin: 70px auto 20px auto;
+}
+
+.left-genzhong .section-content ul li {
+    width: 100%;
+    height: 45px;
+    list-style: none;
+}
+
+.left-genzhong .section-content ul li:not(:first-child) {
+    margin-top: 10px;
+    background: url(../img/genzhongbackTwo.png) 100% 100% no-repeat;
+}
+
+.left-genzhong .section-content ul li:nth-child(1) {
+    background: url(../img/genzhongbackOne.png) 100% 100% no-repeat;
+}
+
+.left-genzhong .section-content ul li p {
+    float: left;
+    line-height: 45px;
+}
+
+.deliveryPoint {
+    width: 80px;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #f6f7fb;
+}
+
+.receivingPoint {
+    width: 80px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #f6f7fb;
+}
+
+.nowAddress {
+    width: 115px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #f6f7fb;
+}
+
+.client {
+    width: 85px;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #f6f7fb;
+}
+
+.deliveryPointTitle,
+.receivingPointTitle,
+.nowAddressTitle,
+.clientTitle {
+    font-size: 18px;
+    font-family: 'SimHei';
+}
+
+
+/* 物流统计数据 */
+
+.logistics-data-statistics {
+    height: 530px;
+    position: absolute;
+    left: 60px;
+    top: 525px;
+}
+
+.riliIcon {
+    width: 44px;
+    height: 42px;
+    margin-top: 15px;
+    float: right;
+}
+
+.logistics-data-statisticsHeader h2 {
+    margin-top: 20px;
+}
+
+.left-logistics-data-statistics .section-content {
+    width: 411px;
+    margin: 70px auto 20px auto;
+}
+
+.trafficMmonth {
+    width: 411px;
+    margin: auto;
+    height: 190px;
+    /* background-color: red; */
+}
+
+.trafficMmonth p {
+    font-size: 16px;
+    color: #4cc7ff;
+    text-align: center;
+    font-family: SourceHanSans;
+}
+
+.trafficMmonthEcharts {
+    width: 411px;
+    margin: auto;
+    height: 160px;
+    margin-top: 5px;
+    /* background-color: pink; */
+}
+
+
+/* .left-genzhong .section-content ul li {
+    width: 100%;
+    height: 45px;
+    list-style: none;
+}
+
+.left-genzhong .section-content ul li:not(:first-child) {
+    margin-top: 10px;
+    background: url(../img/genzhongbackTwo.png) 100% 100% no-repeat;
+}
+
+.left-genzhong .section-content ul li:nth-child(1) {
+    background: url(../img/genzhongbackOne.png) 100% 100% no-repeat;
+}
+
+.left-genzhong .section-content ul li p {
+    float: left;
+    line-height: 45px;
+} */
